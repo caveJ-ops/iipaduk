@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Лучшие ИИ для 3D-моделирования 2026</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <style>
+    :root {
+      --bg: #0a0f1a;
+      --card: #141a2e;
+      --accent: #00d4ff;
+      --accent-dark: #0099cc;
+      --text: #e0f0ff;
+      --text-light: #a3bffa;
+      --border: #2a3561;
+    }
+    
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-family: 'Inter', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      min-height: 100vh;
+    }
+    
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+    
+    header {
+      text-align: center;
+      padding: 90px 20px 60px;
+      background: linear-gradient(135deg, #0a1a2e 0%, #000d1f 100%);
+    }
+    
+    h1 {
+      font-size: 3.4rem;
+      margin-bottom: 16px;
+      background: linear-gradient(90deg, #00d4ff, #a78bfa, #ff6ee7);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    
+    .subtitle {
+      font-size: 1.35rem;
+      color: var(--text-light);
+      max-width: 760px;
+      margin: 0 auto;
+    }
+    
+    .tools-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+      gap: 32px;
+      padding: 50px 0 100px;
+    }
+    
+    .tool-card {
+      background: var(--card);
+      border-radius: 20px;
+      overflow: hidden;
+      border: 1px solid var(--border);
+      transition: all 0.28s ease;
+      position: relative;
+    }
+
+    .tool-card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 20px 40px rgba(0, 212, 255, 0.12);
+    }
+    
+    .tool-rank {
+      position: absolute;
+      top: 0px;
+      left: 28px;
+      background: var(--accent);
+      color: #000;
+      font-weight: 800;
+      width: 44px;
+      height: 44px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.3rem;
+      box-shadow: 0 4px 14px rgba(0,0,0,0.5);
+      z-index: 10;
+      border: 3px solid var(--card);
+    }
+    
+    .tool-header {
+      padding: 60px 32px 20px;
+    }
+    
+    .tool-name {
+      font-size: 2rem;
+      margin-bottom: 12px;
+      color: white;
+    }
+    
+    .tool-desc {
+      color: var(--text-light);
+      margin-bottom: 24px;
+      font-size: 1.1rem;
+    }
+    
+    .example-image {
+      padding: 0 32px 24px;
+    }
+    
+    .example-image img {
+      width: 100%;
+      height: auto;
+      aspect-ratio: 4 / 3;
+      object-fit: cover;
+      border-radius: 16px;
+      display: block;
+    }
+    
+    .features {
+      padding: 0 32px 32px;
+      font-size: 0.98rem;
+    }
+    
+    .feature {
+      margin-bottom: 12px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    
+    .feature::before {
+      content: "→";
+      color: var(--accent);
+      font-weight: bold;
+      font-size: 1.2rem;
+    }
+    
+    .link-btn {
+      display: inline-block;
+      background: var(--accent);
+      color: #000;
+      font-weight: 700;
+      padding: 14px 32px;
+      border-radius: 50px;
+      text-decoration: none;
+      margin: 0 32px 32px;
+      transition: all 0.3s;
+    }
+    
+    .link-btn:hover {
+      background: var(--accent-dark);
+      transform: translateY(-3px);
+      box-shadow: 0 8px 24px rgba(0, 212, 255, 0.3);
+    }
+    
+    footer {
+      text-align: center;
+      padding: 60px 20px 40px;
+      color: #6b7a99;
+      font-size: 0.92rem;
+      border-top: 1px solid #1e293b;
+    }
+    
+    @media (max-width: 768px) {
+      h1 { font-size: 2.8rem; }
+      header { padding: 70px 20px 50px; }
+      .tool-rank { left: 24px; width: 40px; height: 40px; font-size: 1.2rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="container">
+      <h1>Лучшие ИИ для 3D-моделирования 2026</h1>
+      <p class="subtitle">ТОП-инструменты для генерации 3D-моделей из текста, картинки и видео — актуально на февраль 2026</p>
+    </div>
+  </header>
+
+  <div class="container">
+    <div class="tools-grid">
+
+      <!-- 1. Tripo AI -->
+      <div class="tool-card">
+        <div class="tool-rank">1</div>
+        <div class="tool-header">
+          <h2 class="tool-name">Tripo AI</h2>
+          <p class="tool-desc">Лидер 2025–2026 по качеству и скорости для геймдева и чистой топологии.</p>
+        </div>
+        <div class="example-image">
+          <img 
+            src="https://dashboard.kingnewswire.com/uploads/press-release/2025/07/09/1752081306686ea39a4b61f1752081306686ea39a4b621.png" 
+            alt="Tripo AI — пример сгенерированной 3D-модели" 
+            loading="lazy"
+          >
+        </div>
+        <div class="features">
+          <div class="feature">Очень быстрая генерация</div>
+          <div class="feature">Отличная топология (quads)</div>
+          <div class="feature">Text-to-3D + Image-to-3D + Refine</div>
+          <div class="feature">Популярен в игровых пайплайнах</div>
+        </div>
+        <a href="https://www.tripo3d.ai/" target="_blank" class="link-btn">Перейти →</a>
+      </div>
+
+      <!-- 2. Meshy AI -->
+      <div class="tool-card">
+        <div class="tool-rank">2</div>
+        <div class="tool-header">
+          <h2 class="tool-name">Meshy AI</h2>
+          <p class="tool-desc">Самый универсальный инструмент с лучшей текстурировкой и доработкой моделей.</p>
+        </div>
+        <div class="example-image">
+          <img 
+            src="https://cdn.meshy.ai/ti_w:1920,q:75,f:webp/landing-assets/blog/meshy-4-break-grounds/image2.png" 
+            alt="Meshy AI — пример сгенерированной 3D-модели" 
+            loading="lazy"
+          >
+        </div>
+        <div class="features">
+          <div class="feature">Prism v3 / v4 — топовое качество</div>
+          <div class="feature">Retexture, animation rigging</div>
+          <div class="feature">Text + Image + Concept → 3D</div>
+          <div class="feature">Идеально для игр и продуктов</div>
+        </div>
+        <a href="https://www.meshy.ai/" target="_blank" class="link-btn">Перейти →</a>
+      </div>
+
+      <!-- 3. Hunyuan 3D (Tencent) -->
+      <div class="tool-card">
+        <div class="tool-rank">3</div>
+        <div class="tool-header">
+          <h2 class="tool-name">Hunyuan 3D (Tencent)</h2>
+          <p class="tool-desc">Китайский тяжеловес — отличное качество и разрешение текстур.</p>
+        </div>
+        <div class="example-image">
+          <img 
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBsl0SucPMUhHOMExjBsnM3A54lIPlEyqkeA&s" 
+            alt="Hunyuan 3D — пример сгенерированной модели" 
+            loading="lazy"
+          >
+        </div>
+        <div class="features">
+          <div class="feature">Высокое разрешение моделей</div>
+          <div class="feature">Хорошая детализация</div>
+          <div class="feature">Бесплатные генерации (с лимитами)</div>
+          <div class="feature">Стабильно в топ-5 2025–26</div>
+        </div>
+        <a href="https://hunyuan.tencent.com/3d" target="_blank" class="link-btn">Перейти →</a>
+      </div>
+
+      <!-- 4. Luma AI Genie -->
+      <div class="tool-card">
+        <div class="tool-rank">4</div>
+        <div class="tool-header">
+          <h2 class="tool-name">Luma AI Genie</h2>
+          <p class="tool-desc">Самый быстрый генератор с чистой топологией для дальнейшей работы.</p>
+        </div>
+        <div class="example-image">
+          <img 
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRCWZNDYyNnZ-HXMa_XC1O1kZd5X9H3g1heg&s" 
+            alt="Luma AI Genie — пример сгенерированной модели" 
+            loading="lazy"
+          >
+        </div>
+        <div class="features">
+          <div class="feature">Генерация за секунды</div>
+          <div class="feature">Хорошая quad-based топология</div>
+          <div class="feature">Отлично для концептов</div>
+          <div class="feature">Интеграция с телефона</div>
+        </div>
+        <a href="https://lumalabs.ai/genie" target="_blank" class="link-btn">Перейти →</a>
+      </div>
+
+      <!-- 5. Rodin AI (Hyper3D) -->
+      <div class="tool-card">
+        <div class="tool-rank">5</div>
+        <div class="tool-header">
+          <h2 class="tool-name">Rodin AI (Hyper3D)</h2>
+          <p class="tool-desc">Щедрый бесплатный лимит и очень приятное качество моделей.</p>
+        </div>
+        <div class="example-image">
+          <img 
+            src="https://d1q70pf5vjeyhc.wavespeed.ai/media/images/1765466686171185038_1zxvtByx.webp" 
+            alt="Rodin AI (Hyper3D) — пример сгенерированной модели" 
+            loading="lazy"
+          >
+        </div>
+        <div class="features">
+          <div class="feature">Часто полностью бесплатно</div>
+          <div class="feature">Быстрая генерация</div>
+          <div class="feature">Хорошие результаты с одной картинки</div>
+          <div class="feature">Популярен в 2025–26</div>
+        </div>
+        <a href="https://hyper3d.ai/" target="_blank" class="link-btn">Перейти →</a>
+      </div>
+
+      <!-- 6. Spline AI -->
+      <div class="tool-card">
+        <div class="tool-rank">6</div>
+        <div class="tool-header">
+          <h2 class="tool-name">Spline AI</h2>
+          <p class="tool-desc">Лучший выбор для веб-3D, интерактивных сцен и прототипов интерфейсов.</p>
+        </div>
+        <div class="example-image">
+          <img 
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBzA_ka8OsZ-Tu-jKZnHgz6vFszblSRb3JGw&s" 
+            alt="Spline AI — пример сгенерированной 3D-сцены" 
+            loading="lazy"
+          >
+        </div>
+        <div class="features">
+          <div class="feature">Работает прямо в браузере</div>
+          <div class="feature">Text → 3D сцена</div>
+          <div class="feature">Интерактивность и анимация</div>
+          <div class="feature">Идеально для сайтов</div>
+        </div>
+        <a href="https://spline.design/ai" target="_blank" class="link-btn">Перейти →</a>
+      </div>
+
+    </div>
+  </div>
+
+  <footer>
+    <p>Данные собраны на февраль 2026 • Топ основан на отзывах сообществ, тестах и рейтингах</p>
+    <p>Самые актуальные результаты всегда проверяйте на официальных сайтах</p>
+  </footer>
+
+</body>
+</html>
